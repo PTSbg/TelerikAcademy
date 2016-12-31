@@ -1,0 +1,48 @@
+body{
+    background-color: #a9a9a9;
+}
+
+h1{
+    color: #fafad2;
+}
+
+body > header{
+    font-size: 23px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a{
+    color: #fafad2;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+a.current{
+    background-color: #d3d3d3;
+}
+
+header ul li:nth-child(4) a{
+    text-decoration: underline;
+}
+
+article header{
+    font-size: 33px;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+body > footer {
+    font-size: 20px;
+    text-align: center;
+}

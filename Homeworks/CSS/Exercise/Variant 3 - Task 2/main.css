@@ -1,0 +1,57 @@
+#root {
+  width: 1024px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.superheroes img{
+    display: none
+}
+
+.superheroes a{
+    display: none;
+}
+
+.superheroes li{
+    list-style-type: none;
+    margin: 10px;
+}
+.superheroes .hero-header{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+
+#site-header{
+    background-image: url("../Variant 3 - Task 2/imgs/logo.png");
+}
+
+.superheroes li:hover img{
+    display: inline-block;
+    width: 155px;
+    height: 155px;
+    border: 3px solid #973A3A;
+    border-radius: 15px;
+}
+
+.superheroes li:hover {
+  
+}
+.superheroes li:hover .hero-header {
+
+}
+.superheroes li:hover a {
+    display: inline-block;
+    text-decoration: none;
+    background: #9F9F9F;
+    padding: 10px 0;
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    opacity: 0.3;
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    vertical-align: middle;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}

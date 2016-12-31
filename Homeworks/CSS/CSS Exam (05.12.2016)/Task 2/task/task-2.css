@@ -1,0 +1,91 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: -webkit-linear-gradient(#040404, #535353);
+    background: -o-linear-gradient(#040404, #535353);
+    background: linear-gradient(#040404, #535353);
+}
+
+.navigation{
+    margin: 0px;
+    padding: 0px;
+    background-color: #3C3C3C;
+
+}
+
+.nav-tabs{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-tabs li{
+    float: left;
+    border: 1px solid #544B4B;
+    height: 50px;
+    width: 117px;
+}
+
+.file file-html{
+    background-image: url("../task/imgs/html-icon.png")
+}
+
+.file file-css selected{
+    background-image: url("../task/imgs/css-icon.png")
+}
+
+.file file-sass{
+    background-image: url("../task/imgs/sass-icon.png")
+}
+
+.file file-html{
+    background-image: url("../task/imgs/html-icon.png")
+}
+
+.property{
+    margin-left: 16px;
+    color: #00BDAE;
+}
+
+.punctuation{
+    margin-left: 2px;
+    color: #747458;
+}
+
+.selector{
+    color: #EEEE03;
+}
+
+.function{
+
+    color: #A52A2A;
+}
+
+li{
+    color: #DCFFDC;
+    padding: 3px;
+}
+
+.selector:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: #4C5354;
+    display: block;
+}
+
+.property:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: #4C5354;
+    display: block;
+}
+
+
+.nav-tabs li:hover{
+    background-color: #80807C;
+}

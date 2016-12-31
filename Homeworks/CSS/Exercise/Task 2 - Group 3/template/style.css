@@ -1,0 +1,73 @@
+body ul{
+    margin: 0px;
+    padding: 0px;
+    width: 960px;
+    font-family: Constantina, Georgia, 'Nimbus Roman No9 L', serif;
+    font-size: 16px;
+}
+
+#wrapper{
+    margin: 0px;
+    padding: 0px;
+}
+
+.content{
+    display: none;
+    position: absolute;
+    left: 170px;
+    top: 0;
+}
+
+.menu{
+    list-style-type: none;
+}
+
+.menu li {
+    border-radius: 15px;
+    background-color: #B6FF00;
+    width: 150px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px 10px;
+    position: relative;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* hover */
+
+.menu li:hover a{
+text-decoration: underline;
+}
+
+.menu li:hover .content{
+    display: block;
+}
+
+.menu li:hover .content .sub-menu{
+    list-style-type: none;
+}
+
+.menu li:hover .content li img{
+    display: none;
+}
+
+.menu li:hover .content li a{
+    text-decoration: none;
+    color:white;
+}
+
+.menu li:hover .content .sub-menu li{
+    background-color: #008000;
+    padding: 20px;
+    width: 500px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.menu li content sub-menu li a img:hover img{
+    display: block;
+}
