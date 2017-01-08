@@ -1,4 +1,4 @@
-function test(args) {
+function solve(args) {
     let n = +args[0];
     let numbersArr = args[1].split(' ');
     let numberToFind = +args[2];
@@ -12,5 +12,3 @@ function test(args) {
 
     console.log(count);
 }
-
-test([6, "1 2 3 4 5 6", 3]);
