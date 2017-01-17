@@ -1,6 +1,6 @@
 function solve(args) {
-	var regex = new RegExp('<a href="(.*?)">(.*?)</a>', "g");
-	var text = args[0].replace(regex, function(none, href, content) {
+	let regex = new RegExp('<a href="(.*?)">(.*?)</a>', "g");
+	let text = args[0].replace(regex, function(none, href, content) {
 		return '[' + content + '](' + href + ')';
 	});
 
